@@ -6,6 +6,7 @@ node_modules/
 .angular/
 README.md.txt
 
+
 # Compiled output
 dist
 /tmp
