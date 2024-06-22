@@ -1,9 +1,10 @@
 .vscode
 Final Project.sln
-appsettings.json
+
 TaskManagerApp-Back-End/ViewModels
 node_modules/
 .angular/
+README.md.txt
 
 # Compiled output
 dist
