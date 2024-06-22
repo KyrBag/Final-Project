@@ -18,7 +18,7 @@ It is designed to help users stay organized and keep track of their to-do lists 
 
 ## Technologies Used
 
-### Frontend
+### Front-end
 
 - **Angular 18:** A TypeScript-based open-source web application framework used for building the user interface.
 - **Angular Material:** A UI component library for Angular to create beautiful and responsive user interfaces.
@@ -31,7 +31,7 @@ It is designed to help users stay organized and keep track of their to-do lists 
 - **HTML5 & CSS3:** Markup and styling of the application.
 - **Zone.js:** For executing code inside specific contexts in Angular.
 
-### Backend
+### Back-end
 
 - **.NET 8 Web API:** A framework for building web APIs on top of the .NET platform.
 - **Entity Framework Core:** An object-database mapper for .NET used for database operations.
