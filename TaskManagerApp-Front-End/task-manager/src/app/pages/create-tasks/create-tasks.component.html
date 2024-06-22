@@ -1,0 +1,31 @@
+<div class="h-screen flex items-center justify-center">
+    <form [formGroup]="addTaskForm" (ngSubmit)="add()"
+    class="shadow-md rounded-md p-5 bg-white w-8/10 h-4/5" >
+
+      <div class="py-4">
+        <h1 class="font-bold text-left py-2">
+          Tasks
+        </h1>
+        <h6 class="text-slate-600 text-base">
+          Add your tasks here
+        </h6>
+      </div>
+      <mat-form-field  class="w-full" appearance="outline" appearance="fill">
+        <mat-label> Title</mat-label>
+        <input matInput formControlName="title" placeholder="The title you want to give to your task !">
+        <mat-icon matPrefix>title</mat-icon>
+      </mat-form-field>
+
+      <mat-form-field appearance="fill" class="w-full h-3/6">
+        <mat-icon matPrefix>mood</mat-icon>
+        <mat-label>Task</mat-label>
+        <textarea formControlName="description" matInput></textarea>
+      </mat-form-field>
+
+      <button type="submit" [disabled]="!addTaskForm.valid" class="w-full border-collapse text-white rounded-md border-slate-200 disabled:bg-purple-400 py-2
+      px-3 bg-purple-700">
+        Save your task
+      </button> 
+  
+    </form>
+  </div>

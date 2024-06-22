@@ -1,0 +1,83 @@
+.acc1 {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    top: 98px;
+    
+}
+
+.acc2 {
+    position: relative;
+    left: 30%;
+    min-width: fit-content;
+}
+
+.account {
+
+   bottom: 50%;
+   position: relative;
+   margin-left: auto;
+    margin-right: auto;
+   left: 45%;
+}
+
+
+.tasks1 {
+    position: relative;
+    display: inline;
+    
+}
+
+@media only screen and (max-width: 600px) {
+    .account {
+        position: relative;
+        left: 30%;
+    }
+    
+}
+
+/* Small devices such as large phones (640px and up) */
+/* @media only screen and (min-width: 640px) {
+    .tasks {
+        position:relative;
+        align-content: end;
+        width:max-content;
+        top: 50%;
+    }
+    .acc1 {
+    position: relative;
+    top: 98px;
+    
+} 
+} */
+/* Medium devices such as tablets (768px and up) */
+/* @media only screen and (min-width: 768px) {
+    .tasks1 {
+        width:max-content;
+        position: relative;
+        top: 120px;
+        right: 148%;
+    }
+} */
+
+/* Large devices such as laptops (1024px and up)
+@media only screen and (min-width: 1024px) {
+    .tasks1 {
+        width:max-content;
+        position: relative;
+        top: 53%;
+        right: 148%;
+    } */
+
+    /* .account {
+        left: -80%;
+    } */
+/* } */
+
+/* Largest devices such as desktops (1280px and up) */
+@media only screen and (max-width: 1279px) {
+    .account {
+        position: relative;
+        left: 40%;
+    } 
+ } 

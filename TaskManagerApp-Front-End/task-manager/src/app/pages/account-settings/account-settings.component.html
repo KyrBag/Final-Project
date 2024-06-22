@@ -1,0 +1,55 @@
+<div class="h-screen flex items-center justify-center">
+    <form  [formGroup]="profileForm" (ngSubmit)="updateProfile()">
+        <div class="py-4">
+            <h1 class="font-bold text-center py-2 mb-20">
+              Your Profile Details
+            </h1>
+            <h6 class="text-slate-600 text-base">
+              Update your credentials here.
+            </h6>
+          </div>
+          <hr class="mb-10 mt-10 ">
+          
+
+          <mat-form-field  class="w-2/3" appearance="outline" appearance="fill">
+            <mat-label> Username </mat-label>
+            <input matInput formControlName="username" placeholder="Your new username !">
+            <mat-icon matPrefix>person</mat-icon>
+          </mat-form-field>
+
+          <mat-form-field  class="w-2/3" appearance="outline" appearance="fill">
+            <mat-label> Email Address</mat-label>
+            <input matInput formControlName="email" placeholder="Your new email address !">
+            <mat-icon matPrefix>email</mat-icon>
+          </mat-form-field>
+
+          <mat-form-field  class="w-2/3" appearance="outline" appearance="fill">
+            <mat-label> Firstname </mat-label>
+            <input matInput formControlName="firstname" placeholder="Your new firstname !">
+            <mat-icon matPrefix>person</mat-icon>
+          </mat-form-field>
+
+          <mat-form-field  class="w-2/3" appearance="outline" appearance="fill">
+            <mat-label> Lastname </mat-label>
+            <input matInput formControlName="lastname" placeholder="Your new lastname !">
+            <mat-icon matPrefix>person</mat-icon>
+          </mat-form-field>
+
+
+          <button type="submit" [disabled]="profileForm.invalid" class="up w-2/4 border-collapse text-center text-xl pt-1 text-white rounded-md border-slate-200 disabled:bg-purple-400 py-2
+          px-3 bg-purple-700">
+          <mat-icon matPrefix><span class="material-symbols-outlined">
+            check_circle
+            </span></mat-icon>
+            Update your profile 
+          </button> 
+
+          <button type="button" (click)="deleteUser()" class="del w-2/4 border-collapse text-center text-xl pt-1 text-white rounded-md border-slate-200 bg-red-400 py-2
+          px-3 bg-purple-700">
+          <mat-icon matPrefix><span class="material-symbols-outlined">
+            delete
+            </span></mat-icon>
+            Delete your account 
+          </button> 
+    </form>
+</div>

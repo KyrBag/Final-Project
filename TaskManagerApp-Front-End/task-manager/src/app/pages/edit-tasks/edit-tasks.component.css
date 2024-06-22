@@ -1,0 +1,67 @@
+.completed  {
+    text-decoration: line-through;
+    color: rgb(32, 30, 30);
+  }
+
+  .flex {
+    display: flex;
+  }
+  
+  .space-x-2 > * + * {
+    margin-left: 8px; 
+  }
+  
+
+  .success {
+    background-color: #4caf50;
+    color: white;
+  }
+  
+.success:hover {
+    background-color: #127216;
+  }
+
+.success:disabled {
+    background-color: rgb(135, 248, 195) !important; 
+}
+
+.Notsuccess:disabled {
+  background-color: rgb(238, 151, 216) !important;  
+}
+
+@media only screen and (max-width: 784px){
+  .table {
+    position: relative;
+    right: 140px;
+  }
+
+  .add {
+    position: relative;
+    right: 140px;
+  }
+}
+
+
+@media only screen and (max-width: 815px) and (min-width: 785px){
+  .table {
+    position: relative;
+    right: 110px;
+  }
+
+  .add {
+    position: relative;
+    right: 110px;
+  }
+}
+
+@media only screen and (max-width: 910px) and (min-width: 816px) {
+  .table {
+    position: relative;
+    right: 80px;
+  }
+
+  .add {
+    position: relative;
+    right: 90px;
+  }
+}

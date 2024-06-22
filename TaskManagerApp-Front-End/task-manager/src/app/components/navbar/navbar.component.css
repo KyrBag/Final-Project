@@ -1,0 +1,174 @@
+
+mat-list-item  {
+    top: 55px;
+}
+
+.toolbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+}
+
+.drawer-container {
+  display: flex;
+  flex-direction: row;
+}
+
+mat-drawer {
+  width: 250px; /* Adjust width as needed */
+}
+
+mat-drawer-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.mat-drawer-content {
+  margin-left: 0;
+  transition: margin 0.3s ease-in-out;
+}
+
+.mat-drawer-content[ng-reflect-opened=true] {
+  margin-left: 250px; /* Adjust width as needed */
+}
+
+
+.hum {
+    position: relative;
+    right: 48px;
+}
+
+.hum .m2{
+    display: none;
+}
+
+.hum2 {
+    position: relative;
+    right: 48px;
+}
+
+.mat-toolbar.mat-primary {
+    background: #a246c9;
+    color: #fff;
+  }
+
+  .icon {
+    display: none;
+  }
+
+/* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+@media screen and (max-width: 600px) and (min-width: 280px) {
+    /* .mat-toolbar a:not(:first-child) {display: none;}
+    .mat-toolbar a */
+    .icon {
+      float: right;
+      display: flex;
+    }
+
+    .hum .m1{
+        display: none;
+    }
+
+    .hum .m2{
+        display:block;
+    }
+    .NotResLR {
+        display: none;
+    }
+
+    .dropdownMenu {
+        position: absolute;
+        top: 16px;
+        right: 48px;
+       
+    }
+    
+    .login, .register {
+        position: relative;
+        z-index: 3;
+        /* display: table-column; */
+        top: 42px;
+        left: 5px;
+        background-color: #a453c7;
+        cursor: pointer ;
+        color: #fff;
+    }
+  }
+
+  @media screen and (max-width: 414px) {
+    .menuRight {
+      position: relative;
+      right: 20px;
+    }
+
+    .menuToggle {
+      position: relative;
+      right: 20px;  
+    }
+
+  }
+
+  @media screen and (max-width: 395px) {
+    .menuRight {
+      position: relative;
+      right: 35px;
+    }
+
+    .menuToggle {
+      position: relative;
+      right: 39px;  
+    }
+
+  }
+  
+  @media screen  and (min-width: 260px) and (max-width:395px) {
+   
+    .dropdownMenu{
+      position:absolute;
+      z-index: 3;
+    }
+    .ResLR {
+        position: relative;
+        right: 70px;
+    }
+}
+
+@media screen  and (min-width: 348px) and (max-width:395px) {
+   
+    .ResLR {
+        position: relative;
+        right: 20px;
+    }
+}
+
+@media screen and (max-width:770px) and (min-width: 601px) {
+    .ResLR {
+        display: none;
+    }
+
+}
+
+@media only screen 
+and (min-device-width : 280px) 
+and (max-device-width : 480px) {
+  
+ * {
+    
+    max-width: 480px;
+ }
+
+
+  .login {
+    
+    position: relative;
+    right: 40px;
+  }
+
+  .register {
+    position: relative;
+    right: 100px;
+  }
+}
