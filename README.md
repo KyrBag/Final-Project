@@ -43,3 +43,4 @@ It is designed to help users stay organized and keep track of their to-do lists 
 - **Newtonsoft.Json:** For JSON serialization and deserialization.
 - **Swashbuckle.AspNetCore:** For generating Swagger API documentation.
 
+![Screenshot 2024-09-08 123508](https://github.com/user-attachments/assets/e8a78b92-8683-4f6c-b158-6effa10245ee)
