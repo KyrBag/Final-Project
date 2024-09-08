@@ -1,5 +1,7 @@
 # Task Manager App
 
+![Screenshot 2024-09-08 122607](https://github.com/user-attachments/assets/9dc14965-7f02-4faf-b75d-7387d8cd1f15)
+
 ## Overview
 
 Welcome to the Task Manager App!
